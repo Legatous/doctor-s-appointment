@@ -1,1 +1,2 @@
 basic template for booking doctor's appointment on the web 
+THIS IS JUST TEMPLATE IT IS NOT SUPPOSED TO WORK COMPLETETE YOU NEED TO MODIFY FUNCTIONALITIES YOURSELF!
