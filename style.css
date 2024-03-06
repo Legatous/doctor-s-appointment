@@ -1735,22 +1735,19 @@ section {
   transition: 0.3s;
 }
 .send-message-btn {
-  margin-left: 25px;
-  background: #1977cc;
-  color: #fff;
-  border-radius: 50px;
-  padding: 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
   display: inline-block;
-  text-decoration: none; /* Added to remove underline */
+  padding: 10px 35px;
+  background-color: #1977cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
 }
 
 .send-message-btn:hover {
-  background: #166ab5;
-  color: #fff;
+  background-color: #1c84e3;
 }
+
 
 #footer .social-links a:hover {
   background: #1c84e3;
