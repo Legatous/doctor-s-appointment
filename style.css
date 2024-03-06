@@ -1734,21 +1734,6 @@ section {
   height: 36px;
   transition: 0.3s;
 }
-.send-message-btn {
-  display: inline-block;
-  padding: 10px 35px;
-  background-color: #1977cc;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 50px;
-  transition: all 0.3s ease;
-}
-
-.send-message-btn:hover {
-  background-color: #1c84e3;
-}
-
-
 #footer .social-links a:hover {
   background: #1c84e3;
   color: #fff;
