@@ -271,8 +271,7 @@
               </div>
               <div class="validate"></div>
             </div>
-          </div>
-          
+          </div>          
           <script>
             // Initialize the datepicker when the link is clicked
             $("#datepickerContainer").datepicker({
@@ -517,7 +516,25 @@
             <div id="errormessage" class="error-message"></div>
             <div id="sendmessage" class="sent-message">Your message has been sent. Thank you!</div>
         </div>
-          <button type = "submit" input type="submit" value="Send Message">
+         <button type="submit" class="custom-button" value="Send Message"></button>
+<style>
+    /* Define the modified button style */
+    .custom-button {
+        background-color: #1977cc; /* New background color */
+        color: #fff; /* New text color */
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s; /* Transition effect */
+    }
+
+    /* Change button background color on hover */
+    .custom-button:hover {
+        background-color: #07294d; /* New background color on hover */
+        color: #ffc600; /* New text color on hover */
+    }
+</style>
     </form>
 </div>
         </div>
